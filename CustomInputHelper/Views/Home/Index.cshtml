@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@model IEnumerable<string>
+<h2>Index</h2>
+
+<p>
+    Our bullet list 
+    @Html.BulletList(Model,BulletStyle.UpperRoman)
+</p>
